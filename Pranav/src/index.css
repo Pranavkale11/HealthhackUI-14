@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+body { @apply bg-white text-slate-900; }
+.container-page { @apply max-w-6xl mx-auto px-4; }
+
+/* Ensure nav spacing shows up */
+.nav { @apply flex items-center gap-6 text-sm; }

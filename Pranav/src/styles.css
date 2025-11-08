@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* App-specific tweaks */
+:root { color-scheme: light; }
+body { @apply bg-white text-slate-900; }
+.container-page { @apply max-w-6xl mx-auto px-4; }
+/* ensure spacing even if Tailwind gets overridden by some global rule */
+header nav { display: flex; gap: 1.5rem; }
