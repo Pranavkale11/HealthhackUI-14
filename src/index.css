@@ -2,7 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: light; }
-body { @apply bg-white text-slate-900 font-[Inter]; }
-.display { font-family: 'Nunito', system-ui, sans-serif; } /* for big title */
-.container-page { @apply max-w-6xl mx-auto px-4; }
+/* ✅ Light mode defaults */
+:root {
+  color-scheme: light;
+
+  --bg: #ffffff;
+  --text: #0f0f15;
+
+  --card: #f5f5f5;
+  --border: #d9d9d9;
+}
+
+/* ✅ Dark mode variables */
+.dark {
+  color-scheme: dark;
+
+  --bg: #0d0f14;
+  --text: #f1f1f1;
+
+  --card: #1a1d24;
+  --border: #2c313c;
+}
+
+/* ✅ Apply theme colors */
+body {
+  background: var(--bg);
+  color: var(--text);
+  @apply font-[Inter] transition-colors duration-300;
+}
+
+/* ✅ Utility fonts */
+.display {
+  font-family: "Nunito", system-ui, sans-serif;
+}
+
+.container-page {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+/* ✅ Card helper */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  @apply rounded-xl p-4;
+}
