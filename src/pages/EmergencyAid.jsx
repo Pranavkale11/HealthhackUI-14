@@ -141,7 +141,7 @@ export default function EmergencyAid() {
       <div className="grid md:grid-cols-[1fr,320px] gap-8 items-start">
         {/* Left: content */}
         <div>
-          <h1 className="text-3xl font-bold text-purple-700">Emergency Aid</h1>
+          <h1 className="text-3xl font-bold text-purple-700">Emergency Aid (Under Development)</h1>
           <p className="text-gray-700 mt-3 max-w-2xl">
             Quick actions and guides for common emergencies. Learn the do's and
             don'ts before help arrives.

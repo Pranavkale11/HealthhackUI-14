@@ -162,7 +162,7 @@ export default function DiarrhoeaRisk() {
         <aside className="space-y-4">
           <div className="rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
             <div className="px-5 py-3 border-b rounded-t-2xl bg-teal-100 text-teal-900 font-medium">
-              Quick guidance for diarrhoea-related symptoms & safety.
+              Quick guidance for diarrhoea-related symptoms & safety.(Under Development)
             </div>
 
             <div className="p-5 space-y-2">

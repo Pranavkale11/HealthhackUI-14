@@ -155,7 +155,7 @@ export default function TyphoidRisk() {
         <aside className="space-y-4">
           <div className="rounded-2xl bg-white shadow-xl ring-1 ring-slate-200">
             <div className="px-5 py-3 border-b rounded-t-2xl bg-violet-100 text-violet-900 font-medium">
-              AI Health Assistant
+              AI Health Assistant (Under Development)
             </div>
             <div className="p-5 space-y-2">
               {[

@@ -3,9 +3,9 @@ import { Link, useLocation } from "react-router-dom";
 
 const LANGS = [
   { code: "en", label: "English" },
-  { code: "hi", label: "हिन्दी" },
-  { code: "mr", label: "मराठी" },
-  { code: "bn", label: "বাংলা" },
+  { code: "hi", label: "हिन्दी (under development" },
+  { code: "mr", label: "मराठी (under development)" },
+  { code: "bn", label: "বাংলা (under development)" },
 ];
 
 export default function Header() {
